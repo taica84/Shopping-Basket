@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: gray;
+}
+
+
+.head-list {
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(aqua,grey);
+    line-height: 100px;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgba(11, 14, 5, 0.5);
+    line-height: 150px;
+    position: absolute;
+   
+}
+header ul li {
+    line-height: 150px;
+    list-style: none;
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+    margin-right: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+header ul li img{
+    width: 25px;
+    height: 25px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    
+    color: ;
+}
+
+.image {
+    
+    margin: 35px;
+    position: relative;
+    overflow: hidden;
+    
+    
+    
+}
+img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+.add-to-cart {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 100%;
+    background-color: darkgray;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+
+
+.image:hover .cart1,
+.image:hover .cart2,
+.image:hover .cart3,
+.image:hover .cart4,
+.image:hover .cart5,
+.image:hover .cart6,
+.image:hover .cart7,
+.image:hover .cart8,
+.image:hover .cart9 {
+
+    bottom: 50px;
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
+}
+
+button {
+    padding: 3px;
+    margin-left: 3px;
+    font-size: 15px;
+
+}
+
+.plus-item {
+
+    background-color: black;
+    color: white;
+    width: 80px;
+}
+
+.minus-item {
+    background-color: rgb(206, 193, 193);
+    color: black;
+    width: 80px;
+}
+
+.delete-item {
+    background-color: red;
+    margin-left:150px;
+    border-radius: 10%;
+}
+
+
+
+span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    color: blue
+}
+
+
+
+.list-style {
+    border-bottom: 3px solid lightgray;
+    max-width: 500px;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: purple;
+    
+    cursor: pointer;
+}
+h2:hover {
+    color: rgb(231, 162, 216);
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#total-sum {
+    float: right;
+    position: fixed;
+    left: 1150px;
+    top: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+}
+
+#total-cart{
+    float: right;
+    position: fixed;
+    left: 1150px;
+    top: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    
+}
+#clear-cart {
+    padding: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: red;
+    border-radius: 10%;
+    box-shadow: 5px 0 10px orange;
+    cursor: pointer;
+   
+    margin-top: 30px;
+    
+    
+}
+
+.submit-button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    font-size: 20px;
+    background-color: chartreuse;
+    border-radius: 10%;
+    box-shadow: 0 2px 5px orange;
+    margin-top: 30px;
+    position: fixed;
+    left: 1150px;
+}
+
+#my-basket {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #0987b5;
+    letter-spacing: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    
+    transition: 1.5s;
+    cursor: pointer;
+    border-radius: 100px;
+    -webkit-animation: glow 5s linear infinite;
+    outline: none;
+    box-shadow: 5px 5px 5px#5ed3ff ;
+
+}
+
+ @-webkit-keyframes glow {
+     0%{background-color: #0987b5;}
+     50%{background-color: #5ed3ff;}
+     100%{background-color:#0987b5 ;}
+ }
+
+#list-products {
+    max-width: 500px;
+    background-color: darkgrey;
+    box-shadow: 5px 10px  15px black;
+}
